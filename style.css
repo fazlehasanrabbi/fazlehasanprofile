@@ -1,0 +1,588 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'Fira Sans', sans-serif; 
+}
+/* For All common css style starts Hear */
+body{
+    margin: 0;
+}
+.portfolio-container{
+  width: 100%;
+margin: 0px 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+/* Dotted hr */
+.dotted-hr{
+border: 5px dotted white;
+border-bottom: none;
+width: 70px;
+margin: 15px auto;
+text-align: center;
+
+}
+/* About Me Hr */
+.about-me-hr{
+  /* margin: 0 auto;
+  border-top: 0px solid rgb(255, 253, 255);
+  box-shadow: 0px 0px 100px  rgba(167, 0, 136, 0.831); */
+  border: none;
+}
+/* Card image */
+.card-img{
+ text-align: center;
+ margin-top: 10px;
+}
+.pro-img{
+  width: 85px;
+  height: 85px;
+  padding: 5px;
+  border: 3px solid #180054;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px  rgba(255, 255, 255, 0.811);
+}
+/* Card Title */
+.card-title{
+  font-size: 1rem;
+  color: white; text-align: center;
+  background-color: rgba(255, 255, 255, 0.053);
+  margin: 20px auto;
+  padding: 4px;
+  text-transform: uppercase;
+}
+/* Card Description */
+.card-desc ol li{
+  color: white;
+  margin: 15px 20px;
+  font-size: 0.85rem;
+}
+/* achievement-contact-hr */
+.achievement-contact-hr{
+
+}
+
+/* For All common css style Ends Hear */
+
+
+
+/* For Mobile Style */
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+/* Navigation Div section starts Hear */
+.navigation-div{
+  background-color: brown;
+  background-image: linear-gradient(43deg, #272f5a 0%, #351033 46%, #563b08 100%);
+  text-align: center;
+  /* padding: 1% 7%; */
+}
+/* Navbar Logo */
+.navbar-logo{
+  margin-top: 10px;
+}
+/* Nav Image */
+.nav-img{
+  width: 120px;
+  height: 120px;
+  border: 3px solid rgba(248, 248, 248, 0.578);
+  border-radius: 50%;
+  box-shadow: 0px 0px 50px 2px rgba(143, 142, 146, 0.523);
+}
+.nav-img:hover{
+  border: 3px solid rgba(255, 255, 110, 0.482);
+  box-shadow: 0px 0px 50px 2px rgba(146, 146, 142, 0.523);
+
+}
+
+/* Navbar Title */
+.nav-title{
+  color: white;
+  font-size: 1.2rem;
+}
+/* Nav-Menu */
+.nav-menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-menu a{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(21, 22, 22, 0.692);
+  margin: 10px 0;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow:0px 
+    3px 5px rgba(255, 255, 255, 0.386) ;
+}
+.nav-menu a:hover{
+  background-color: rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 0px 10px rgba(255, 255, 0, 0.5);
+}
+
+
+
+/* Navigation Div section Ends Hear */
+.navigation-div::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Profile information Starts Hear */
+.profile-info{
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  position: relative;
+  padding: 118px 0;
+  text-align: center;
+}
+#info{
+  position: relative;
+  z-index: 1;
+  opacity: 0.9;
+}
+#bg-image img{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, 52%);
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  text-align: center;
+}
+/* Top Weather Icon */
+.top-weather-icon{
+  padding: 5px;
+  width: 110px;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  transition: 2s;
+}
+.top-weather-icon:hover{
+  transform: rotate(360deg);
+  
+}
+/* Pro Desc */
+.pro-desc h1{
+  font-family: 'Satisfy', cursive;
+  font-size: 2.5rem;
+}
+.pro-desc p{
+  padding: 20px;
+  color: rgb(30, 1, 1);
+  width: 80%;
+  font-size: 1rem;
+  margin: 0px auto 20px auto ;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+/* Bottom weather Icon */
+.bottom-weather-icon{
+  padding: 5px;
+  width: 110px;
+  position: absolute;
+  left: 25px;
+  bottom: 20px;
+  transition: 2s;
+}
+.bottom-weather-icon:hover{
+  transform: rotate(360deg);
+}
+/* Profile information Ends Hear */
+.portfolio-container{
+  content: '';
+  display: table;
+  clear: both;
+}
+/* About Me Information Starts Hear */
+.about-me{
+  color: white;
+background: linear-gradient(to right, #64012ad6, #202b07f7); 
+padding: 120px 0;
+text-align: center;
+}
+/* About Image */
+.about-img{
+  
+}
+/* Me Image */
+.me-img{
+  height: 200px;
+  width: 200px;
+  border: #051937 5px solid;
+  box-shadow: 0px 0px 50px 2px rgba(255, 255, 255, 0.621);
+  border-radius: 50%;
+}
+.me-img:hover{
+  box-shadow: 0px 0px 50px 2px rgba(249, 59, 214, 0.454);
+}
+/* About Desc */
+.about-desc p{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+background-color: #f6f6f623;
+margin: 10px auto;
+border: 1px solid rgba(255, 255, 255, 0.331);
+border-top: none;
+padding: 8px 10px;
+box-shadow: 0px 2px 5px white ;
+}
+.about-desc a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.about-link:hover{
+  color: tomato;
+}
+/* CV Button */
+.cv-button{
+  color: white;
+  background-color:#05270b;
+  padding: 4px 20px;
+  border: 1px solid rgb(2, 82, 55);
+  border-top: none;
+  box-shadow: 0px 3px 15px rgba(0, 103, 69, 0.61) ;
+}
+.cv-button:hover{
+  color: rgb(217, 255, 0);
+  background-color:#015908;
+  padding: 4px 20px;
+  border: 1px solid rgb(93, 255, 201);
+  border-top: none;
+  box-shadow: 0px 3px 15px rgb(192, 255, 234) ;
+}
+/* About Me Information Ends Hear */
+.about-me::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+/* Professional Information Starts Hear */
+.professional-info{
+    padding: 100px 50px ;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(183deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#card{
+  box-sizing: border-box;
+    background-color: rgba(36, 34, 34, 0.493);
+    border-radius: 10px;
+    box-shadow: 0 0 10px yellow;
+    height: 580px;
+    margin: 20px auto ;
+    
+}
+
+#card:hover{
+  box-shadow: 0 0 10px rgb(244, 9, 118);
+}
+
+/* Work Experience Card */
+/* .work-experience-card{
+    box-sizing: border-box;
+    background-color: rgba(36, 34, 34, 0.493);
+    border-radius: 10px;
+    box-shadow: 0 0 10px yellow;
+    height: 600px;
+} */
+
+/* Professional Information Ends Hear */
+
+/* .edu-tri-card{
+    box-sizing: border-box;
+    background-color: rgba(36, 34, 34, 0.493);
+    border-radius: 10px;
+    box-shadow: 0 0 10px yellow;
+    height: 600px;
+    margin: 20px 40px ;
+} */
+/* Education & Trining Card Ends Hear */
+
+/* Skills Information Starts Hear */
+/* .skill-card{
+    box-sizing: border-box;
+    background-color: rgba(36, 34, 34, 0.493);
+    border-radius: 10px;
+    box-shadow: 0 0 10px yellow;
+    height: 600px;
+} */
+/* Card Skill Desc */
+.card-skill-desc li{
+  color: white;
+  margin: 15px 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  list-style-type: none;
+  font-weight: 1.2rem;
+  position: relative;
+}
+.card-skill-desc li::before{
+  content: '';
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  border-radius: 1000px;
+  background-color: #00fb97;
+  width: 100%;
+  height: 10px;
+}
+.card-skill-desc li::after{
+  content: '';
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  border-radius: 1000px;
+  background-color: #470032e8;
+  width: 0%;
+  height: 10px;
+  box-shadow: 0 0 10px rgba(213, 223, 124, 0.507);
+  animation-duration: 30s;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 5;
+}
+
+
+.card-skill-desc li.html::after{
+  animation-name: html;
+}
+@keyframes html {
+  to{
+      width: 90%;
+  }   
+}
+.card-skill-desc li.css::after{
+  animation-name: css;
+}
+@keyframes css {
+  to{
+      width: 85%;
+  }   
+}
+.card-skill-desc li.bs::after{
+  animation-name: bs;
+}
+@keyframes bs {
+  to{
+      width: 80%;
+  }   
+}
+.card-skill-desc li.js::after{
+  animation-name: js;
+}
+@keyframes js {
+  to{
+      width: 75%;
+  }   
+}
+.card-skill-desc li.jquery::after{
+  animation-name: jquery;
+}
+@keyframes jquery {
+  to{
+      width: 70%;
+  }   
+}
+.card-skill-desc li.node::after{
+  animation-name: node;
+}
+@keyframes node {
+  to{
+      width: 65%;
+  }   
+}
+.card-skill-desc li.express::after{
+  animation-name: express;
+}
+@keyframes express {
+  to{
+      width: 60%;
+  }   
+}
+.card-skill-desc li.git::after{
+  animation-name: git;
+}
+@keyframes git {
+  to{
+      width: 55%;
+  }   
+}
+.card-skill-desc li.react::after{
+  animation-name: react;
+}
+@keyframes react {
+  to{
+      width: 50%;
+  }   
+}
+/* Education & Trining Card Starts Hear */
+.professional-info::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+/* Achievement & Contact Starts Hear */
+.achievement-contact{
+  background: rgb(2,0,36);
+  color: white;
+  padding: 1% 7%;
+}
+/* Achievement */
+.achievement p{
+  margin-left: 70px;
+}
+.achievement h1{
+  text-align: center;
+  padding: 15px;
+}
+.achievement ol li{
+  margin-top: 20px;
+  padding: 0px;
+  margin-left: 30px;
+  font-size: 1rem;
+}
+
+/* Contact Me */
+.contact-me{
+  text-align: center;
+  display: block;
+}
+.contact-me h1{
+  text-align: center;
+  padding: 15px;
+}
+.contact-me p,input, textarea{
+  width: 100%;
+  border: none;
+  resize: none;
+  padding: 10px;
+  border-radius: 5px;
+  
+  
+}
+.contact-me textarea{
+  box-sizing: border-box;
+  width: 95%;
+}
+
+.achievement-contact-hr{
+  border-top: 1px solid rgb(253, 253, 12)
+  margin: 10px auto;
+  box-shadow: 0px -5px 10px 1px rgb(255, 255, 255);
+
+}
+
+
+/* Contact Btn */
+.contact-btn{
+  text-align: center;
+        display: inline-block;
+        margin: 20px ;
+        width: 140px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 1rem;
+        background-color:rgba(236, 65, 65, 0.564);
+        box-shadow: 0px  0px 5px rgba(255, 255, 255, 0.621);
+}
+/* More ways to Contact */
+.moreWay-contact h1{
+  text-align: center;
+  padding: 15px;
+}
+.contact-btn:hover{
+  background-color: rgb(0, 255, 242);
+        box-shadow: 0 0 10px rgb(228, 225, 225);
+        color: rgb(28, 26, 26);
+        cursor: pointer;
+}
+/* Media Btn */
+.media-btn{
+  margin: auto;
+  text-align: center;
+}
+.media-btn .btn{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 15px 5px;
+  text-align: center;
+  padding: 0;
+  font-size: 35px;
+  border:2px solid #011378;
+  background-color: #42424267;
+  box-shadow: 0px 0px 10px white;
+}
+/* Btn */
+.btn:hover{
+  box-shadow: 0px 0px 15px rgb(168, 250, 2);
+}
+/* Requst Callback */
+.requst-callback{
+
+}
+/* Achievement & Contact Ends Hear */
+.achievement-contact::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+/* Footer div Section Starts Hear */
+.footer{
+  background-color: rgba(21, 21, 34, 0.904);
+  background-color: rgb(20, 19, 19);;
+  padding: 10px 0;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+/* Footer Menu */
+.footer-menu{
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 0;
+}
+.footer-menu a{
+ color: white;
+ display: inline-block;
+ text-align: center;
+ padding: 10px;
+ text-decoration: none;
+}
+.footer-menu a:hover{
+  color: tomato;
+}
+/* Footer Description */
+
+.footer-desc p{
+ color: white;
+ text-align: center;
+ font-size: 0.8rem;
+ padding: 10px;
+}
+/* Footer div Section Ends Hear */
+.footer::after{
+  content: '';
+  display: table;
+  clear: both;
+}
